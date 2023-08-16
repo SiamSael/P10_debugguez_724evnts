@@ -13,6 +13,11 @@
       min-height: auto;
       overflow: hidden;
     }
+    .EventCard__imageContainer img {
+      object-fit: cover;
+      height: 150px !important;
+      width: 274px !important;
+    }
     .EventCard__descriptionContainer {
       padding: 0;
       padding-top: 12px;
