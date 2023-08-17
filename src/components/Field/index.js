@@ -1,3 +1,4 @@
+import { useState } from "react";
 import PropTypes from "prop-types";
 
 import "./style.scss";
@@ -7,27 +8,33 @@ export const FIELD_TYPES = {
   TEXTAREA: 2,
 };
 
-const Field = ({ type = FIELD_TYPES.INPUT_TEXT, label, name, placeholder }) => {
+const Field = ({ type = FIELD_TYPES.INPUT_TEXT, label, name, placeholder,}) => {
+  const [value, setValue] = useState("")
   let component;
   switch (type) {
     case FIELD_TYPES.INPUT_TEXT:
+      
       component = (
         <input
           type="text"
           name={name}
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
           placeholder={placeholder}
           data-testid="field-testid"
         />
       );
       break;
     case FIELD_TYPES.TEXTAREA:
-      component = <textarea name={name} data-testid="field-testid" />;
+      component = <textarea name={name} value={value} onChange={(e) => setValue(e.target.value)} data-testid="field-testid"/>;
       break;
     default:
       component = (
         <input
           type="text"
           name={name}
+          value={value}
+          onChange={(e) => setValue(e.target.value)}
           placeholder={placeholder}
           data-testid="field-testid"
         />
