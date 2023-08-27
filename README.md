@@ -59,4 +59,7 @@ dans package.json
 effectué yarn run buid
 effectué un commit
 
-npm  i  -- save - dev  gh - pages
+npm install gh-pages --save-dev
+
+effectué yarn run buid
+effectué un commit
