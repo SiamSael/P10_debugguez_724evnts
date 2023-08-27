@@ -57,3 +57,4 @@ dans package.json
 
 effectué yarn run buid
 effectué un commit
+modification readme => commit 
