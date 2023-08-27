@@ -90,7 +90,7 @@ describe("When a page is created", () => {
     expect(selectElement).toBeInTheDocument();
   })
   it("a footer is displayed", () => {
-    screen.findByText("Une agence événementielle propose des prestations de service spécialisées dans la conception et l&apos;organisation de divers événements tels que des événements festifs, des manifestations sportives et culturelles, des événements professionnels")
+    screen.findByText("Une agence événementielle propose des prestations de service spécialisées dans la conception et l'organisation de divers événements tels que des événements festifs, des manifestations sportives et culturelles, des événements professionnels")
     screen.findByText("45 avenue de la République, 75000 Paris")
     screen.findByText("01 23 45 67 89")
     screen.findByText("contact@77events.com")
