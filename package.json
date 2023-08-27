@@ -2,6 +2,7 @@
   "name": "77-events",
   "version": "0.1.0",
   "private": true,
+    "homepage": "https://siamsael.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
@@ -15,6 +16,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "predeploy" : "yarn run build",
+    "deploy" : "gh-pages -d build --remote P10_debugguez_724evnts",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
