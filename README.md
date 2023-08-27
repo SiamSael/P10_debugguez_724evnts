@@ -51,15 +51,15 @@ yarn test
 dans package.json 
     ajout dans "scripts": 
         "predeploy" : "yarn run build",
-        "deploy" :  "gh-pages -d build --remote P10_debugguez_724evnts", 
+        "deploy" :  "gh-pages -d build", 
     ajout ajout à la racine
         "name": "debuggez-724events",
         "homepage": "https://siamsael.github.io/P10_debugguez_724evnts",
 
-effectué yarn run buid
+effectué yarn run build
 effectué un commit
 
 npm install gh-pages --save-dev
 
-effectué yarn run buid
+effectué yarn run build
 effectué un commit

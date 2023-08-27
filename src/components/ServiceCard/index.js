@@ -5,7 +5,7 @@ import "./style.scss";
 const ServiceCard = ({ imageSrc, imageAlt, children }) => (
     <div className="ServiceCard">
       <div className="ServiceCard__imageContainer">
-        <img data-testid="card-image-testid" src={imageSrc} alt={imageAlt} />
+        <img data-testid="card-image-testid" src={process.env.PUBLIC_URL + imageSrc} alt={imageAlt} />
       </div>
       <div className="ServiceCard__textContainer">{children}</div>
     </div>
