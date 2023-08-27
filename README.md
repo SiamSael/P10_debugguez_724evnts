@@ -53,7 +53,8 @@ dans package.json
         "predeploy" : "yarn run build",
         "deploy" : "gh-pages -d build --remote P10_debugguez_724evnts", 
     ajout ajout à la racine
-        "homepage": "https://siamsael.github.io/",
+        "name": "debuggez-724events",
+        "homepage": "https://siamsael.github.io/P10_debugguez_724evnts",
 
 effectué yarn run buid
 effectué un commit

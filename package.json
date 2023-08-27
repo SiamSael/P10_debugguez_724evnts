@@ -1,8 +1,8 @@
 {
-  "name": "77-events",
+  "name": "debuggez-724events",
   "version": "0.1.0",
   "private": true,
-    "homepage": "https://siamsael.github.io/",
+    "homepage": "https://siamsael.github.io/P10_debugguez_724evnts",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.1.1",
