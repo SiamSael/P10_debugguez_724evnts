@@ -46,3 +46,14 @@ yarn --version
 yarn install
 yarn start
 yarn test
+
+
+dans package.json 
+    ajout dans "scripts": 
+        "predeploy" : "yarn run build",
+        "deploy" : "gh-pages -d build --remote P10_debugguez_724evnts", 
+    ajout ajout à la racine
+        "homepage": "https://siamsael.github.io/",
+
+effectué yarn run buid
+effectué un commit
